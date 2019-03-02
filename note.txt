@@ -1,0 +1,41 @@
+#DISCUSS
+
+Hallo sobat coders, saya ingin memperkenalkan Mini CMS, bisa di bilang library. Saya beri nama Saga Infinity CMS.
+
+Dibuat menggunakan PHP, Codeigniter 3.1.9, MySql, Jquery, HTML, CSS, dan keterkaitan lainnya.
+
+Dilengkapi dengan fiture:
+
+1. Auth
+   -Halaman login
+   -Halaman register
+   -Login Ajax / none (cukup ganti parameter type login yang akan di gunakan)
+
+2. Dynamic nestable menu
+   -Admin menu
+   -Add menu (bisa tambah menu sesuka hati, misal untuk frontend)
+   -Add Location (sebelum add menu, bisa tambah location menunya dulu)
+
+3. Dynamic Role
+   -Bisa buat akses baru dan mengaturnya
+   -Atur role module (saya prioritaskan karena semua fiture saya taruh di module)
+   -User friendly edit/add role
+   -Bawaan terdiri dari Superuser dan Admin (Superuser tidak bisa di hapus);
+
+4. Multy template
+   -kalo berencana nambah template, tinggal buat sesuai struktur dan beri nama. Dan cukup rubah di core template yg akan d gunakan
+
+5. Blog
+   -Post (Add, edit, list menggunakan ajax dan read)
+   -Page (Add, edit, list menggunakan ajax dan read)
+
+6. Nestable
+   -Membuat nestable baru di admin, misal untuk category
+   
+Bawaan menggunakan template AdminLTE, bisa tambah atau custom template sendiri dengan mengikuti struktur bawaannya.
+
+Saya menggunakan konsep module, saya hanya membuat 1 master controller dan 1 route. Untuk halaman/action saya simpan di direktori modules yang saya buat.
+
+Untuk lebih lengkap, silahkan tonton video saya di youtube.
+
+Contact : asepmedia18@gmail.com
